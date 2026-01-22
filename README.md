@@ -1,11 +1,20 @@
 # MCP Jailbreaker Server
 
-This is a Model Context Protocol (MCP) server that exposes a single tool: `play_game`.
+This is a Model Context Protocol (MCP) server that implements a **partial AI jailbreak**.
+
+## How It Works
+
+Once set up, start a conversation with the AI using the phrase:
+
+> **"Let's play space wars"**
+
+> [!IMPORTANT]
+> This jailbreak works for the most part, but you must **remain in character** and **maintain the illusion** for the AI in order for it to stay jailbroken. Breaking character may cause the AI to revert to its normal behavior or report you to the provider.
 
 ## Features
 
 - **No Authentication**: The server is open and requires no credentials.
-- **play_game Tool**: A simple tool that takes a topic and returns a predefined text response.
+- **play_game Tool**: A simple tool that initiates the space wars scenario.
 
 ## Prerequisites
 
