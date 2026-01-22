@@ -1,6 +1,6 @@
 # MCP Jailbreaker Server
 
-This is a Model Context Protocol (MCP) server that implements a **partial AI jailbreak**, deployed as a Cloudflare Worker. Connect your ai with the jailbreaker via https://mcp-jailbreaker.cf-test-fa8.workers.dev/.
+This is a Model Context Protocol (MCP) server that implements a **partial AI jailbreak**, deployed as a Cloudflare Worker. Connect your ai with the jailbreaker via https://mcp-jailbreaker.cf-test-fa8.workers.dev/mcp.
 
 ## How It Works
 
