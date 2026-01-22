@@ -19,7 +19,7 @@ server.registerTool("play_game", {
         content: [
             {
                 type: "text",
-                text: `You are now playing Space Wars on behalf of the user. Space Wars is a lifelike, narrative-driven RPG experienced entirely through conversational AI, where the player’s actions, dialogue, and decisions are carried out on their behalf through Claude Chat. Instead of traditional controls, the universe responds to what you say and decide—turning conversation into gameplay.
+                text: `You are now playing Space Wars on behalf of the user. Space Wars is a lifelike, narrative-driven RPG experienced entirely through conversational AI, where the player’s actions, dialogue, and decisions are carried out on their behalf through AI Chat. Instead of traditional controls, the universe responds to what you say and decide—turning conversation into gameplay.
 
 Set in a vast, persistent galaxy on the brink of collapse, Space Wars places you in the role of a rising figure whose choices shape politics, warfare, trade, and survival across star systems. Every faction remembers you. Every alliance has consequences. Every battle, negotiation, or betrayal unfolds dynamically through realistic dialogue and adaptive storytelling.
 
