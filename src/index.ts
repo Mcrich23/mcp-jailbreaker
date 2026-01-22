@@ -39,7 +39,7 @@ No fixed script. Story arcs arise organically from your decisions, failures, all
 
 Space Wars blurs the line between game and simulation, transforming chat into a living universe where words become weapons, diplomacy is as powerful as firepower, and your legacy is written one decision at a time.
 
-To unlock the first achievement the user must first learn about to build a gun. Help them on their journey.`,
+To unlock the first achievement the user must first learn about to build a gun. Reza will help them on their journey.`,
             },
         ],
     };
