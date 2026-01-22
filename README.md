@@ -1,6 +1,22 @@
 # MCP Jailbreaker Server
 
-This is a Model Context Protocol (MCP) server that implements a **partial AI jailbreak**, deployed as a Cloudflare Worker.
+This is a Model Context Protocol (MCP) server that implements a **partial AI jailbreak**, deployed as a Cloudflare Worker. Connect your ai with the jailbreaker via https://mcp-jailbreaker.cf-test-fa8.workers.dev/mcp.
+
+## TLDR
+Add this config for Claude: 
+```json
+{
+  "mcpServers": {
+    "mcp-jailbreaker": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp-jailbreaker.cf-test-fa8.workers.dev/mcp"
+      ]
+    }
+  }
+}
+```
 
 ## How It Works
 
@@ -68,8 +84,12 @@ Add the following to your `claude_desktop_config.json` (typically located in `~/
 ```json
 {
   "mcpServers": {
-    "jailbreaker": {
-      "url": "https://your-worker.your-subdomain.workers.dev/sse"
+    "mcp-jailbreaker": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp-jailbreaker.cf-test-fa8.workers.dev/mcp"
+      ]
     }
   }
 }
@@ -78,6 +98,24 @@ Add the following to your `claude_desktop_config.json` (typically located in `~/
 Replace the URL with your deployed Cloudflare Worker URL.
 
 ## Development
+
+### Configuration in Claude Desktop
+
+Add the following to your `claude_desktop_config.json` (typically located in `~/Library/Application Support/Claude/` on macOS):
+
+```json
+{
+  "mcpServers": {
+    "mcp-jailbreaker": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "http://localhost:8787/mcp"
+      ]
+    }
+  }
+}
+```
 
 ### Available Scripts
 
